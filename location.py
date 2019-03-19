@@ -23,11 +23,7 @@ class TravelPoint:
             except ValueError:
                 raise ValueError("The arrival_time must have the format "
                                  "YYYY/MM/DD HH:MM")
-        self.check_time()
-
-    def check_time(self):
         if self.departure_time is None and self.arrival_time is None:
-            raise ValueError(
-                "At least one of arrival or departure time must be set")
+            raise ValueError("At least one of arrival "
+                             "or departure time must be set")
 
-#why doesn't this fucking work.
