@@ -26,9 +26,4 @@ class TravelPoint:
         if self.departure_time is None and self.arrival_time is None:
             raise ValueError("At least one of arrival "
                              "or departure time must be set")
-<<<<<<< HEAD
 
-
-print("Hello World")
-=======
->>>>>>> bf4917cc534f1b26608349daf97cbd936244c4c3
