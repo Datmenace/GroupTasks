@@ -27,3 +27,5 @@ class TravelPoint:
             raise ValueError("At least one of arrival "
                              "or departure time must be set")
 
+
+print("Hello World")
